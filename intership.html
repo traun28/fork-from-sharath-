@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internship Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28A745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Internship Portal</h1>
+    <p>Your gateway to real-world experience</p>
+</header>
+
+<section>
+    <h2>Apply for an Internship</h2>
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="field">Field of Interest:</label>
+        <select id="field" name="field">
+            <option value="web">Web Development</option>
+            <option value="data">Data Science</option>
+            <option value="ai">AI/ML</option>
+            <option value="marketing">Digital Marketing</option>
+        </select>
+
+        <label for="resume">Upload Resume (PDF):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf">
+
+        <label for="message">Why should we hire you?</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</section>
+
+<section>
+    <h2>Available Internships</h2>
+    <ul>
+        <li><strong>Web Developer Intern</strong> - 3 months - Remote</li>
+        <li><strong>Data Analyst Intern</strong> - 6 months - Onsite</li>
+        <li><strong>AI Research Intern</strong> - 4 months - Hybrid</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Email: internships@yourcompany.com</p>
+    <p>Phone: +1 234 567 8900</p>
+</section>
+
+</body>
+</html>
